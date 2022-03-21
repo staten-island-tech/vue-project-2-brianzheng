@@ -1,5 +1,7 @@
 <template>
-  <div><h2>hello</h2></div>
+  <div class="body">
+    
+  </div>
 </template>
 
 <script>
@@ -7,3 +9,7 @@ export default {
   name: 'IndexPage',
 }
 </script>
+
+<style>
+  
+</style>
