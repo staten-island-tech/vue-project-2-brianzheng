@@ -1,6 +1,6 @@
 <template>
   <div class="body">
-  
+    <Header />
   </div>
 </template>
 
@@ -11,6 +11,14 @@ export default {
 </script>
 
 <style>
+  html,
+  body,
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  }
   @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
   :root{
     /* First Theme */
@@ -25,5 +33,27 @@ export default {
     --grey-blue:#54878d;
     --blue-grey:#4b8cc7;
     --white:#ffffff;
+    /* Typography */
+    --h1:3.052rem;
+    --h2:2.441rem;
+    --h3:1.953rem;
+    --h4: 1.563rem;
+    --h5: 1.25rem;
   }
+  h1 {
+    font-size: var(--h1);
+    }
+  h2 {
+    font-size: var(--h2);
+    }
+  h3 {
+    font-size: var(--h3);
+    }
+  h4 {
+    font-size: var(--h4);
+    }
+  h5 {
+    font-size: var(--h5);
+    }
+    
 </style>
