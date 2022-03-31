@@ -1,6 +1,6 @@
 <template>
     <div>
-        
+        <h2 class="hi">hello</h2>
     </div>
 </template>
 
@@ -11,5 +11,7 @@
 </script>
 
 <style>
-
+    .hi{
+        color: var(--white);
+    }
 </style>

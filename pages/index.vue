@@ -1,6 +1,7 @@
 <template>
   <div class="body">
     <Header />
+    <h1>Welcome</h1>
   </div>
 </template>
 
@@ -11,49 +12,48 @@ export default {
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
   html,
   body,
   * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
   }
-  @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-  :root{
+  :root {
     /* First Theme */
-    --black-grey:#141414;
-    --blue:#1659f3;
-    --cyan:#10c1be;
-    --light-blue:#0489df;
-    --white-blue:#62bcf3;
+    --black-grey: #141414;
+    --blue: #1659f3;
+    --cyan: #10c1be;
+    --light-blue: #0489df;
+    --white-blue: #62bcf3;
     /* Second Theme */
-    --dark-grey:#06101e;
-    --green-cyan:#40ceab;
-    --grey-blue:#54878d;
-    --blue-grey:#4b8cc7;
-    --white:#ffffff;
+    --dark-grey: #06101e;
+    --green-cyan: #40ceab;
+    --grey-blue: #54878d;
+    --blue-grey: #4b8cc7;
+    --white: #ffffff;
     /* Typography */
-    --h1:3.052rem;
-    --h2:2.441rem;
-    --h3:1.953rem;
+    --h1: 3.052rem;
+    --h2: 2.441rem;
+    --h3: 1.953rem;
     --h4: 1.563rem;
     --h5: 1.25rem;
   }
   h1 {
     font-size: var(--h1);
-    }
+  }
   h2 {
     font-size: var(--h2);
-    }
+  }
   h3 {
     font-size: var(--h3);
-    }
+  }
   h4 {
     font-size: var(--h4);
-    }
+  }
   h5 {
     font-size: var(--h5);
-    }
-    
+  }
 </style>
