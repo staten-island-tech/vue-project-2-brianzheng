@@ -1,7 +1,7 @@
 <template>
   <div class="body">
     <Header />
-    <h1>Welcome</h1>
+    <h1 class="color">Welcome</h1>
   </div>
 </template>
 
