@@ -22,7 +22,6 @@
     }
     .head{
         display: flex;
-        background-color: var(--black-grey);
         height: 5%;
         width: 100%;
     }

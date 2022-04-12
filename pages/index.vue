@@ -1,7 +1,10 @@
 <template>
   <div class="body">
     <Header />
-    <h1 class="color">Welcome</h1>
+    <div class="web">
+      <section class="text"></section>
+      <section class="blogs"></section>
+    </div>
   </div>
 </template>
 
@@ -12,5 +15,15 @@ export default {
 </script>
 
 <style>
-
+.text{
+  width: 50%;
+}
+.blogs{
+  width: 50%;
+}
+.body{
+  height: 100%;
+  background-color: var(--blue);
+  background-image: linear-gradient(var(--black-grey),var(--blue));
+}
 </style>
